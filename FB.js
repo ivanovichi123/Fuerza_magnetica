@@ -6,7 +6,7 @@ iniciar.addEventListener("click", function() {
     let separacion = parseFloat(prompt("Ingresa la separación entre los alambres (m)"));
 
     let miu = 4 * Math.PI * 1e-7; 
-    let feurza_T = (miu * corriente1 * corriente2) / (2 * Math.PI * separacion);
+    let fuerza_T = (miu * corriente1 * corriente2) / (2 * Math.PI * separacion);
     let fuerzaTotal = fuerza_T * largo;
 
     alert("Fuerza total entre los conductores: " + fuerzaTotal + " N");
