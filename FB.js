@@ -1,6 +1,4 @@
 const iniciar = document.querySelector("#boton");
-
-alert(iniciar);
 iniciar.addEventListener("click", function() {
     let corriente1 = parseFloat(prompt("Ingresa el valor de la corriente 1 (A)"));
     let corriente2 = parseFloat(prompt("Ingresa el valor de la corriente 2 (A)"));
